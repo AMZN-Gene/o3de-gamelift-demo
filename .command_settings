@@ -1,0 +1,12 @@
+[export_project]
+project.build.config = release
+archive.output.format = none
+seedlist.paths = AssetBundling/SeedLists/*.seed
+option.build.assets = True
+option.build.tools = True
+option.build.game.launcher = True
+option.build.unified.launcher = False
+option.build.server.launcher = False
+option.build.headless.server.launcher = False
+option.build.monolithic = True
+

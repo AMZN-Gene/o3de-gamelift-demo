@@ -1,0 +1,359 @@
+<ObjectStream version="3">
+	<Class name="MotionSet" version="1" type="{FE63321D-3593-4214-AFA4-F620CDC17B9B}">
+		<Class name="AZStd::string" field="name" value="YBotMotionSet" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+		<Class name="AZStd::unordered_map&lt;AZStd::basic_string&lt;char, AZStd::char_traits&lt;char&gt;, allocator&gt;, MotionSet::MotionEntry*, AZStd::hash&lt;AZStd::basic_string&lt;char, AZStd::char_traits&lt;char&gt;, allocator&gt;&gt;, AZStd::equal_to&lt;AZStd::basic_string&lt;char, AZStd::char_traits&lt;char&gt;, allocator&gt;&gt;, allocator&gt;" field="motionEntries" type="{7E795792-CEDD-52D6-ABCB-6EFC3BAF1CDA}">
+			<Class name="AZStd::pair&lt;AZStd::basic_string&lt;char, AZStd::char_traits&lt;char&gt;, allocator&gt;, MotionSet::MotionEntry*&gt;" field="element" type="{7D28A706-15EE-5B30-B2F7-A224146B4C7F}">
+				<Class name="AZStd::string" field="value1" value="pull heavy object" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+				<Class name="MotionSet::MotionEntry" field="value2" version="1" type="{A1859687-2DE7-4B29-8A39-07836FDF5956}">
+					<Class name="AZStd::string" field="id" value="pull heavy object" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+					<Class name="AZStd::string" field="assetId" value="assets/characters/mixamo/animations/pull heavy object.motion" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+				</Class>
+			</Class>
+			<Class name="AZStd::pair&lt;AZStd::basic_string&lt;char, AZStd::char_traits&lt;char&gt;, allocator&gt;, MotionSet::MotionEntry*&gt;" field="element" type="{7D28A706-15EE-5B30-B2F7-A224146B4C7F}">
+				<Class name="AZStd::string" field="value1" value="pistol jump" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+				<Class name="MotionSet::MotionEntry" field="value2" version="1" type="{A1859687-2DE7-4B29-8A39-07836FDF5956}">
+					<Class name="AZStd::string" field="id" value="pistol jump" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+					<Class name="AZStd::string" field="assetId" value="assets/characters/mixamo/animations/pistol jump.motion" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+				</Class>
+			</Class>
+			<Class name="AZStd::pair&lt;AZStd::basic_string&lt;char, AZStd::char_traits&lt;char&gt;, allocator&gt;, MotionSet::MotionEntry*&gt;" field="element" type="{7D28A706-15EE-5B30-B2F7-A224146B4C7F}">
+				<Class name="AZStd::string" field="value1" value="pistol walk" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+				<Class name="MotionSet::MotionEntry" field="value2" version="1" type="{A1859687-2DE7-4B29-8A39-07836FDF5956}">
+					<Class name="AZStd::string" field="id" value="pistol walk" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+					<Class name="AZStd::string" field="assetId" value="assets/characters/mixamo/animations/pistol walk.motion" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+				</Class>
+			</Class>
+			<Class name="AZStd::pair&lt;AZStd::basic_string&lt;char, AZStd::char_traits&lt;char&gt;, allocator&gt;, MotionSet::MotionEntry*&gt;" field="element" type="{7D28A706-15EE-5B30-B2F7-A224146B4C7F}">
+				<Class name="AZStd::string" field="value1" value="pistol walk arc" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+				<Class name="MotionSet::MotionEntry" field="value2" version="1" type="{A1859687-2DE7-4B29-8A39-07836FDF5956}">
+					<Class name="AZStd::string" field="id" value="pistol walk arc" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+					<Class name="AZStd::string" field="assetId" value="assets/characters/mixamo/animations/pistol walk arc.motion" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+				</Class>
+			</Class>
+			<Class name="AZStd::pair&lt;AZStd::basic_string&lt;char, AZStd::char_traits&lt;char&gt;, allocator&gt;, MotionSet::MotionEntry*&gt;" field="element" type="{7D28A706-15EE-5B30-B2F7-A224146B4C7F}">
+				<Class name="AZStd::string" field="value1" value="pistol run backward" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+				<Class name="MotionSet::MotionEntry" field="value2" version="1" type="{A1859687-2DE7-4B29-8A39-07836FDF5956}">
+					<Class name="AZStd::string" field="id" value="pistol run backward" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+					<Class name="AZStd::string" field="assetId" value="assets/characters/mixamo/animations/pistol run backward.motion" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+				</Class>
+			</Class>
+			<Class name="AZStd::pair&lt;AZStd::basic_string&lt;char, AZStd::char_traits&lt;char&gt;, allocator&gt;, MotionSet::MotionEntry*&gt;" field="element" type="{7D28A706-15EE-5B30-B2F7-A224146B4C7F}">
+				<Class name="AZStd::string" field="value1" value="pistol idle" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+				<Class name="MotionSet::MotionEntry" field="value2" version="1" type="{A1859687-2DE7-4B29-8A39-07836FDF5956}">
+					<Class name="AZStd::string" field="id" value="pistol idle" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+					<Class name="AZStd::string" field="assetId" value="assets/characters/mixamo/animations/pistol idle.motion" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+				</Class>
+			</Class>
+			<Class name="AZStd::pair&lt;AZStd::basic_string&lt;char, AZStd::char_traits&lt;char&gt;, allocator&gt;, MotionSet::MotionEntry*&gt;" field="element" type="{7D28A706-15EE-5B30-B2F7-A224146B4C7F}">
+				<Class name="AZStd::string" field="value1" value="pistol kneel to stand" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+				<Class name="MotionSet::MotionEntry" field="value2" version="1" type="{A1859687-2DE7-4B29-8A39-07836FDF5956}">
+					<Class name="AZStd::string" field="id" value="pistol kneel to stand" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+					<Class name="AZStd::string" field="assetId" value="assets/characters/mixamo/animations/pistol kneel to stand.motion" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+				</Class>
+			</Class>
+			<Class name="AZStd::pair&lt;AZStd::basic_string&lt;char, AZStd::char_traits&lt;char&gt;, allocator&gt;, MotionSet::MotionEntry*&gt;" field="element" type="{7D28A706-15EE-5B30-B2F7-A224146B4C7F}">
+				<Class name="AZStd::string" field="value1" value="fall a land to run forward" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+				<Class name="MotionSet::MotionEntry" field="value2" version="1" type="{A1859687-2DE7-4B29-8A39-07836FDF5956}">
+					<Class name="AZStd::string" field="id" value="fall a land to run forward" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+					<Class name="AZStd::string" field="assetId" value="assets/characters/mixamo/animations/fall a land to run forward.motion" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+				</Class>
+			</Class>
+			<Class name="AZStd::pair&lt;AZStd::basic_string&lt;char, AZStd::char_traits&lt;char&gt;, allocator&gt;, MotionSet::MotionEntry*&gt;" field="element" type="{7D28A706-15EE-5B30-B2F7-A224146B4C7F}">
+				<Class name="AZStd::string" field="value1" value="pistol kneeling idle" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+				<Class name="MotionSet::MotionEntry" field="value2" version="1" type="{A1859687-2DE7-4B29-8A39-07836FDF5956}">
+					<Class name="AZStd::string" field="id" value="pistol kneeling idle" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+					<Class name="AZStd::string" field="assetId" value="assets/characters/mixamo/animations/pistol kneeling idle.motion" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+				</Class>
+			</Class>
+			<Class name="AZStd::pair&lt;AZStd::basic_string&lt;char, AZStd::char_traits&lt;char&gt;, allocator&gt;, MotionSet::MotionEntry*&gt;" field="element" type="{7D28A706-15EE-5B30-B2F7-A224146B4C7F}">
+				<Class name="AZStd::string" field="value1" value="pistol stand to kneel" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+				<Class name="MotionSet::MotionEntry" field="value2" version="1" type="{A1859687-2DE7-4B29-8A39-07836FDF5956}">
+					<Class name="AZStd::string" field="id" value="pistol stand to kneel" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+					<Class name="AZStd::string" field="assetId" value="assets/characters/mixamo/animations/pistol stand to kneel.motion" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+				</Class>
+			</Class>
+			<Class name="AZStd::pair&lt;AZStd::basic_string&lt;char, AZStd::char_traits&lt;char&gt;, allocator&gt;, MotionSet::MotionEntry*&gt;" field="element" type="{7D28A706-15EE-5B30-B2F7-A224146B4C7F}">
+				<Class name="AZStd::string" field="value1" value="pistol walk backward arc" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+				<Class name="MotionSet::MotionEntry" field="value2" version="1" type="{A1859687-2DE7-4B29-8A39-07836FDF5956}">
+					<Class name="AZStd::string" field="id" value="pistol walk backward arc" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+					<Class name="AZStd::string" field="assetId" value="assets/characters/mixamo/animations/pistol walk backward arc.motion" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+				</Class>
+			</Class>
+			<Class name="AZStd::pair&lt;AZStd::basic_string&lt;char, AZStd::char_traits&lt;char&gt;, allocator&gt;, MotionSet::MotionEntry*&gt;" field="element" type="{7D28A706-15EE-5B30-B2F7-A224146B4C7F}">
+				<Class name="AZStd::string" field="value1" value="pistol strafe 2" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+				<Class name="MotionSet::MotionEntry" field="value2" version="1" type="{A1859687-2DE7-4B29-8A39-07836FDF5956}">
+					<Class name="AZStd::string" field="id" value="pistol strafe 2" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+					<Class name="AZStd::string" field="assetId" value="assets/characters/mixamo/animations/pistol strafe 2.motion" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+				</Class>
+			</Class>
+			<Class name="AZStd::pair&lt;AZStd::basic_string&lt;char, AZStd::char_traits&lt;char&gt;, allocator&gt;, MotionSet::MotionEntry*&gt;" field="element" type="{7D28A706-15EE-5B30-B2F7-A224146B4C7F}">
+				<Class name="AZStd::string" field="value1" value="right strafe" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+				<Class name="MotionSet::MotionEntry" field="value2" version="1" type="{A1859687-2DE7-4B29-8A39-07836FDF5956}">
+					<Class name="AZStd::string" field="id" value="right strafe" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+					<Class name="AZStd::string" field="assetId" value="assets/characters/mixamo/animations/right strafe.motion" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+				</Class>
+			</Class>
+			<Class name="AZStd::pair&lt;AZStd::basic_string&lt;char, AZStd::char_traits&lt;char&gt;, allocator&gt;, MotionSet::MotionEntry*&gt;" field="element" type="{7D28A706-15EE-5B30-B2F7-A224146B4C7F}">
+				<Class name="AZStd::string" field="value1" value="pistol walk backward arc 2" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+				<Class name="MotionSet::MotionEntry" field="value2" version="1" type="{A1859687-2DE7-4B29-8A39-07836FDF5956}">
+					<Class name="AZStd::string" field="id" value="pistol walk backward arc 2" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+					<Class name="AZStd::string" field="assetId" value="assets/characters/mixamo/animations/pistol walk backward arc 2.motion" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+				</Class>
+			</Class>
+			<Class name="AZStd::pair&lt;AZStd::basic_string&lt;char, AZStd::char_traits&lt;char&gt;, allocator&gt;, MotionSet::MotionEntry*&gt;" field="element" type="{7D28A706-15EE-5B30-B2F7-A224146B4C7F}">
+				<Class name="AZStd::string" field="value1" value="running backward" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+				<Class name="MotionSet::MotionEntry" field="value2" version="1" type="{A1859687-2DE7-4B29-8A39-07836FDF5956}">
+					<Class name="AZStd::string" field="id" value="running backward" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+					<Class name="AZStd::string" field="assetId" value="assets/characters/mixamo/animations/running backward.motion" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+				</Class>
+			</Class>
+			<Class name="AZStd::pair&lt;AZStd::basic_string&lt;char, AZStd::char_traits&lt;char&gt;, allocator&gt;, MotionSet::MotionEntry*&gt;" field="element" type="{7D28A706-15EE-5B30-B2F7-A224146B4C7F}">
+				<Class name="AZStd::string" field="value1" value="pushing" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+				<Class name="MotionSet::MotionEntry" field="value2" version="1" type="{A1859687-2DE7-4B29-8A39-07836FDF5956}">
+					<Class name="AZStd::string" field="id" value="pushing" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+					<Class name="AZStd::string" field="assetId" value="assets/characters/mixamo/animations/pushing.motion" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+				</Class>
+			</Class>
+			<Class name="AZStd::pair&lt;AZStd::basic_string&lt;char, AZStd::char_traits&lt;char&gt;, allocator&gt;, MotionSet::MotionEntry*&gt;" field="element" type="{7D28A706-15EE-5B30-B2F7-A224146B4C7F}">
+				<Class name="AZStd::string" field="value1" value="fall a loop" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+				<Class name="MotionSet::MotionEntry" field="value2" version="1" type="{A1859687-2DE7-4B29-8A39-07836FDF5956}">
+					<Class name="AZStd::string" field="id" value="fall a loop" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+					<Class name="AZStd::string" field="assetId" value="assets/characters/mixamo/animations/fall a loop.motion" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+				</Class>
+			</Class>
+			<Class name="AZStd::pair&lt;AZStd::basic_string&lt;char, AZStd::char_traits&lt;char&gt;, allocator&gt;, MotionSet::MotionEntry*&gt;" field="element" type="{7D28A706-15EE-5B30-B2F7-A224146B4C7F}">
+				<Class name="AZStd::string" field="value1" value="pistol recoil" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+				<Class name="MotionSet::MotionEntry" field="value2" version="1" type="{A1859687-2DE7-4B29-8A39-07836FDF5956}">
+					<Class name="AZStd::string" field="id" value="pistol recoil" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+					<Class name="AZStd::string" field="assetId" value="assets/characters/mixamo/animations/pistol recoil.motion" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+				</Class>
+			</Class>
+			<Class name="AZStd::pair&lt;AZStd::basic_string&lt;char, AZStd::char_traits&lt;char&gt;, allocator&gt;, MotionSet::MotionEntry*&gt;" field="element" type="{7D28A706-15EE-5B30-B2F7-A224146B4C7F}">
+				<Class name="AZStd::string" field="value1" value="climbing ladder" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+				<Class name="MotionSet::MotionEntry" field="value2" version="1" type="{A1859687-2DE7-4B29-8A39-07836FDF5956}">
+					<Class name="AZStd::string" field="id" value="climbing ladder" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+					<Class name="AZStd::string" field="assetId" value="assets/characters/mixamo/animations/climbing ladder.motion" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+				</Class>
+			</Class>
+			<Class name="AZStd::pair&lt;AZStd::basic_string&lt;char, AZStd::char_traits&lt;char&gt;, allocator&gt;, MotionSet::MotionEntry*&gt;" field="element" type="{7D28A706-15EE-5B30-B2F7-A224146B4C7F}">
+				<Class name="AZStd::string" field="value1" value="right turn 90" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+				<Class name="MotionSet::MotionEntry" field="value2" version="1" type="{A1859687-2DE7-4B29-8A39-07836FDF5956}">
+					<Class name="AZStd::string" field="id" value="right turn 90" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+					<Class name="AZStd::string" field="assetId" value="assets/characters/mixamo/animations/right turn 90.motion" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+				</Class>
+			</Class>
+			<Class name="AZStd::pair&lt;AZStd::basic_string&lt;char, AZStd::char_traits&lt;char&gt;, allocator&gt;, MotionSet::MotionEntry*&gt;" field="element" type="{7D28A706-15EE-5B30-B2F7-A224146B4C7F}">
+				<Class name="AZStd::string" field="value1" value="jump" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+				<Class name="MotionSet::MotionEntry" field="value2" version="1" type="{A1859687-2DE7-4B29-8A39-07836FDF5956}">
+					<Class name="AZStd::string" field="id" value="jump" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+					<Class name="AZStd::string" field="assetId" value="assets/characters/mixamo/animations/jump.motion" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+				</Class>
+			</Class>
+			<Class name="AZStd::pair&lt;AZStd::basic_string&lt;char, AZStd::char_traits&lt;char&gt;, allocator&gt;, MotionSet::MotionEntry*&gt;" field="element" type="{7D28A706-15EE-5B30-B2F7-A224146B4C7F}">
+				<Class name="AZStd::string" field="value1" value="running" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+				<Class name="MotionSet::MotionEntry" field="value2" version="1" type="{A1859687-2DE7-4B29-8A39-07836FDF5956}">
+					<Class name="AZStd::string" field="id" value="running" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+					<Class name="AZStd::string" field="assetId" value="assets/characters/mixamo/animations/running.motion" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+				</Class>
+			</Class>
+			<Class name="AZStd::pair&lt;AZStd::basic_string&lt;char, AZStd::char_traits&lt;char&gt;, allocator&gt;, MotionSet::MotionEntry*&gt;" field="element" type="{7D28A706-15EE-5B30-B2F7-A224146B4C7F}">
+				<Class name="AZStd::string" field="value1" value="hit reaction pistol left" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+				<Class name="MotionSet::MotionEntry" field="value2" version="1" type="{A1859687-2DE7-4B29-8A39-07836FDF5956}">
+					<Class name="AZStd::string" field="id" value="hit reaction pistol left" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+					<Class name="AZStd::string" field="assetId" value="assets/characters/mixamo/animations/hit reaction pistol left.motion" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+				</Class>
+			</Class>
+			<Class name="AZStd::pair&lt;AZStd::basic_string&lt;char, AZStd::char_traits&lt;char&gt;, allocator&gt;, MotionSet::MotionEntry*&gt;" field="element" type="{7D28A706-15EE-5B30-B2F7-A224146B4C7F}">
+				<Class name="AZStd::string" field="value1" value="pistol walk arc 2" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+				<Class name="MotionSet::MotionEntry" field="value2" version="1" type="{A1859687-2DE7-4B29-8A39-07836FDF5956}">
+					<Class name="AZStd::string" field="id" value="pistol walk arc 2" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+					<Class name="AZStd::string" field="assetId" value="assets/characters/mixamo/animations/pistol walk arc 2.motion" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+				</Class>
+			</Class>
+			<Class name="AZStd::pair&lt;AZStd::basic_string&lt;char, AZStd::char_traits&lt;char&gt;, allocator&gt;, MotionSet::MotionEntry*&gt;" field="element" type="{7D28A706-15EE-5B30-B2F7-A224146B4C7F}">
+				<Class name="AZStd::string" field="value1" value="pistol run backward arc" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+				<Class name="MotionSet::MotionEntry" field="value2" version="1" type="{A1859687-2DE7-4B29-8A39-07836FDF5956}">
+					<Class name="AZStd::string" field="id" value="pistol run backward arc" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+					<Class name="AZStd::string" field="assetId" value="assets/characters/mixamo/animations/pistol run backward arc.motion" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+				</Class>
+			</Class>
+			<Class name="AZStd::pair&lt;AZStd::basic_string&lt;char, AZStd::char_traits&lt;char&gt;, allocator&gt;, MotionSet::MotionEntry*&gt;" field="element" type="{7D28A706-15EE-5B30-B2F7-A224146B4C7F}">
+				<Class name="AZStd::string" field="value1" value="idle" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+				<Class name="MotionSet::MotionEntry" field="value2" version="1" type="{A1859687-2DE7-4B29-8A39-07836FDF5956}">
+					<Class name="AZStd::string" field="id" value="idle" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+					<Class name="AZStd::string" field="assetId" value="assets/characters/mixamo/animations/idle.motion" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+				</Class>
+			</Class>
+			<Class name="AZStd::pair&lt;AZStd::basic_string&lt;char, AZStd::char_traits&lt;char&gt;, allocator&gt;, MotionSet::MotionEntry*&gt;" field="element" type="{7D28A706-15EE-5B30-B2F7-A224146B4C7F}">
+				<Class name="AZStd::string" field="value1" value="stunned" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+				<Class name="MotionSet::MotionEntry" field="value2" version="1" type="{A1859687-2DE7-4B29-8A39-07836FDF5956}">
+					<Class name="AZStd::string" field="id" value="stunned" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+					<Class name="AZStd::string" field="assetId" value="assets/characters/mixamo/animations/stunned.motion" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+				</Class>
+			</Class>
+			<Class name="AZStd::pair&lt;AZStd::basic_string&lt;char, AZStd::char_traits&lt;char&gt;, allocator&gt;, MotionSet::MotionEntry*&gt;" field="element" type="{7D28A706-15EE-5B30-B2F7-A224146B4C7F}">
+				<Class name="AZStd::string" field="value1" value="victory" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+				<Class name="MotionSet::MotionEntry" field="value2" version="1" type="{A1859687-2DE7-4B29-8A39-07836FDF5956}">
+					<Class name="AZStd::string" field="id" value="victory" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+					<Class name="AZStd::string" field="assetId" value="assets/characters/mixamo/animations/victory.motion" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+				</Class>
+			</Class>
+			<Class name="AZStd::pair&lt;AZStd::basic_string&lt;char, AZStd::char_traits&lt;char&gt;, allocator&gt;, MotionSet::MotionEntry*&gt;" field="element" type="{7D28A706-15EE-5B30-B2F7-A224146B4C7F}">
+				<Class name="AZStd::string" field="value1" value="fall a land to standing idle 01" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+				<Class name="MotionSet::MotionEntry" field="value2" version="1" type="{A1859687-2DE7-4B29-8A39-07836FDF5956}">
+					<Class name="AZStd::string" field="id" value="fall a land to standing idle 01" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+					<Class name="AZStd::string" field="assetId" value="assets/characters/mixamo/animations/fall a land to standing idle 01.motion" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+				</Class>
+			</Class>
+			<Class name="AZStd::pair&lt;AZStd::basic_string&lt;char, AZStd::char_traits&lt;char&gt;, allocator&gt;, MotionSet::MotionEntry*&gt;" field="element" type="{7D28A706-15EE-5B30-B2F7-A224146B4C7F}">
+				<Class name="AZStd::string" field="value1" value="pistol run arc 2" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+				<Class name="MotionSet::MotionEntry" field="value2" version="1" type="{A1859687-2DE7-4B29-8A39-07836FDF5956}">
+					<Class name="AZStd::string" field="id" value="pistol run arc 2" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+					<Class name="AZStd::string" field="assetId" value="assets/characters/mixamo/animations/pistol run arc 2.motion" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+				</Class>
+			</Class>
+			<Class name="AZStd::pair&lt;AZStd::basic_string&lt;char, AZStd::char_traits&lt;char&gt;, allocator&gt;, MotionSet::MotionEntry*&gt;" field="element" type="{7D28A706-15EE-5B30-B2F7-A224146B4C7F}">
+				<Class name="AZStd::string" field="value1" value="pistol walk backward" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+				<Class name="MotionSet::MotionEntry" field="value2" version="1" type="{A1859687-2DE7-4B29-8A39-07836FDF5956}">
+					<Class name="AZStd::string" field="id" value="pistol walk backward" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+					<Class name="AZStd::string" field="assetId" value="assets/characters/mixamo/animations/pistol walk backward.motion" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+				</Class>
+			</Class>
+			<Class name="AZStd::pair&lt;AZStd::basic_string&lt;char, AZStd::char_traits&lt;char&gt;, allocator&gt;, MotionSet::MotionEntry*&gt;" field="element" type="{7D28A706-15EE-5B30-B2F7-A224146B4C7F}">
+				<Class name="AZStd::string" field="value1" value="pistol run arc" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+				<Class name="MotionSet::MotionEntry" field="value2" version="1" type="{A1859687-2DE7-4B29-8A39-07836FDF5956}">
+					<Class name="AZStd::string" field="id" value="pistol run arc" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+					<Class name="AZStd::string" field="assetId" value="assets/characters/mixamo/animations/pistol run arc.motion" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+				</Class>
+			</Class>
+			<Class name="AZStd::pair&lt;AZStd::basic_string&lt;char, AZStd::char_traits&lt;char&gt;, allocator&gt;, MotionSet::MotionEntry*&gt;" field="element" type="{7D28A706-15EE-5B30-B2F7-A224146B4C7F}">
+				<Class name="AZStd::string" field="value1" value="pistol strafe" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+				<Class name="MotionSet::MotionEntry" field="value2" version="1" type="{A1859687-2DE7-4B29-8A39-07836FDF5956}">
+					<Class name="AZStd::string" field="id" value="pistol strafe" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+					<Class name="AZStd::string" field="assetId" value="assets/characters/mixamo/animations/pistol strafe.motion" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+				</Class>
+			</Class>
+			<Class name="AZStd::pair&lt;AZStd::basic_string&lt;char, AZStd::char_traits&lt;char&gt;, allocator&gt;, MotionSet::MotionEntry*&gt;" field="element" type="{7D28A706-15EE-5B30-B2F7-A224146B4C7F}">
+				<Class name="AZStd::string" field="value1" value="opening" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+				<Class name="MotionSet::MotionEntry" field="value2" version="1" type="{A1859687-2DE7-4B29-8A39-07836FDF5956}">
+					<Class name="AZStd::string" field="id" value="opening" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+					<Class name="AZStd::string" field="assetId" value="assets/characters/mixamo/animations/opening.motion" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+				</Class>
+			</Class>
+			<Class name="AZStd::pair&lt;AZStd::basic_string&lt;char, AZStd::char_traits&lt;char&gt;, allocator&gt;, MotionSet::MotionEntry*&gt;" field="element" type="{7D28A706-15EE-5B30-B2F7-A224146B4C7F}">
+				<Class name="AZStd::string" field="value1" value="left strafe" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+				<Class name="MotionSet::MotionEntry" field="value2" version="1" type="{A1859687-2DE7-4B29-8A39-07836FDF5956}">
+					<Class name="AZStd::string" field="id" value="left strafe" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+					<Class name="AZStd::string" field="assetId" value="assets/characters/mixamo/animations/left strafe.motion" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+				</Class>
+			</Class>
+			<Class name="AZStd::pair&lt;AZStd::basic_string&lt;char, AZStd::char_traits&lt;char&gt;, allocator&gt;, MotionSet::MotionEntry*&gt;" field="element" type="{7D28A706-15EE-5B30-B2F7-A224146B4C7F}">
+				<Class name="AZStd::string" field="value1" value="walking" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+				<Class name="MotionSet::MotionEntry" field="value2" version="1" type="{A1859687-2DE7-4B29-8A39-07836FDF5956}">
+					<Class name="AZStd::string" field="id" value="walking" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+					<Class name="AZStd::string" field="assetId" value="assets/characters/mixamo/animations/walking.motion" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+				</Class>
+			</Class>
+			<Class name="AZStd::pair&lt;AZStd::basic_string&lt;char, AZStd::char_traits&lt;char&gt;, allocator&gt;, MotionSet::MotionEntry*&gt;" field="element" type="{7D28A706-15EE-5B30-B2F7-A224146B4C7F}">
+				<Class name="AZStd::string" field="value1" value="running jump" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+				<Class name="MotionSet::MotionEntry" field="value2" version="1" type="{A1859687-2DE7-4B29-8A39-07836FDF5956}">
+					<Class name="AZStd::string" field="id" value="running jump" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+					<Class name="AZStd::string" field="assetId" value="assets/characters/mixamo/animations/running jump.motion" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+				</Class>
+			</Class>
+			<Class name="AZStd::pair&lt;AZStd::basic_string&lt;char, AZStd::char_traits&lt;char&gt;, allocator&gt;, MotionSet::MotionEntry*&gt;" field="element" type="{7D28A706-15EE-5B30-B2F7-A224146B4C7F}">
+				<Class name="AZStd::string" field="value1" value="left turn 90" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+				<Class name="MotionSet::MotionEntry" field="value2" version="1" type="{A1859687-2DE7-4B29-8A39-07836FDF5956}">
+					<Class name="AZStd::string" field="id" value="left turn 90" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+					<Class name="AZStd::string" field="assetId" value="assets/characters/mixamo/animations/left turn 90.motion" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+				</Class>
+			</Class>
+			<Class name="AZStd::pair&lt;AZStd::basic_string&lt;char, AZStd::char_traits&lt;char&gt;, allocator&gt;, MotionSet::MotionEntry*&gt;" field="element" type="{7D28A706-15EE-5B30-B2F7-A224146B4C7F}">
+				<Class name="AZStd::string" field="value1" value="pistol jump 2" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+				<Class name="MotionSet::MotionEntry" field="value2" version="1" type="{A1859687-2DE7-4B29-8A39-07836FDF5956}">
+					<Class name="AZStd::string" field="id" value="pistol jump 2" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+					<Class name="AZStd::string" field="assetId" value="assets/characters/mixamo/animations/pistol jump 2.motion" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+				</Class>
+			</Class>
+			<Class name="AZStd::pair&lt;AZStd::basic_string&lt;char, AZStd::char_traits&lt;char&gt;, allocator&gt;, MotionSet::MotionEntry*&gt;" field="element" type="{7D28A706-15EE-5B30-B2F7-A224146B4C7F}">
+				<Class name="AZStd::string" field="value1" value="right strafe walking" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+				<Class name="MotionSet::MotionEntry" field="value2" version="1" type="{A1859687-2DE7-4B29-8A39-07836FDF5956}">
+					<Class name="AZStd::string" field="id" value="right strafe walking" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+					<Class name="AZStd::string" field="assetId" value="assets/characters/mixamo/animations/right strafe walking.motion" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+				</Class>
+			</Class>
+			<Class name="AZStd::pair&lt;AZStd::basic_string&lt;char, AZStd::char_traits&lt;char&gt;, allocator&gt;, MotionSet::MotionEntry*&gt;" field="element" type="{7D28A706-15EE-5B30-B2F7-A224146B4C7F}">
+				<Class name="AZStd::string" field="value1" value="dying" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+				<Class name="MotionSet::MotionEntry" field="value2" version="1" type="{A1859687-2DE7-4B29-8A39-07836FDF5956}">
+					<Class name="AZStd::string" field="id" value="dying" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+					<Class name="AZStd::string" field="assetId" value="assets/characters/mixamo/animations/dying.motion" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+				</Class>
+			</Class>
+			<Class name="AZStd::pair&lt;AZStd::basic_string&lt;char, AZStd::char_traits&lt;char&gt;, allocator&gt;, MotionSet::MotionEntry*&gt;" field="element" type="{7D28A706-15EE-5B30-B2F7-A224146B4C7F}">
+				<Class name="AZStd::string" field="value1" value="pistol run backward arc 2" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+				<Class name="MotionSet::MotionEntry" field="value2" version="1" type="{A1859687-2DE7-4B29-8A39-07836FDF5956}">
+					<Class name="AZStd::string" field="id" value="pistol run backward arc 2" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+					<Class name="AZStd::string" field="assetId" value="assets/characters/mixamo/animations/pistol run backward arc 2.motion" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+				</Class>
+			</Class>
+			<Class name="AZStd::pair&lt;AZStd::basic_string&lt;char, AZStd::char_traits&lt;char&gt;, allocator&gt;, MotionSet::MotionEntry*&gt;" field="element" type="{7D28A706-15EE-5B30-B2F7-A224146B4C7F}">
+				<Class name="AZStd::string" field="value1" value="right turn" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+				<Class name="MotionSet::MotionEntry" field="value2" version="1" type="{A1859687-2DE7-4B29-8A39-07836FDF5956}">
+					<Class name="AZStd::string" field="id" value="right turn" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+					<Class name="AZStd::string" field="assetId" value="assets/characters/mixamo/animations/right turn.motion" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+				</Class>
+			</Class>
+			<Class name="AZStd::pair&lt;AZStd::basic_string&lt;char, AZStd::char_traits&lt;char&gt;, allocator&gt;, MotionSet::MotionEntry*&gt;" field="element" type="{7D28A706-15EE-5B30-B2F7-A224146B4C7F}">
+				<Class name="AZStd::string" field="value1" value="left strafe walking" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+				<Class name="MotionSet::MotionEntry" field="value2" version="1" type="{A1859687-2DE7-4B29-8A39-07836FDF5956}">
+					<Class name="AZStd::string" field="id" value="left strafe walking" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+					<Class name="AZStd::string" field="assetId" value="assets/characters/mixamo/animations/left strafe walking.motion" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+				</Class>
+			</Class>
+			<Class name="AZStd::pair&lt;AZStd::basic_string&lt;char, AZStd::char_traits&lt;char&gt;, allocator&gt;, MotionSet::MotionEntry*&gt;" field="element" type="{7D28A706-15EE-5B30-B2F7-A224146B4C7F}">
+				<Class name="AZStd::string" field="value1" value="left turn" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+				<Class name="MotionSet::MotionEntry" field="value2" version="1" type="{A1859687-2DE7-4B29-8A39-07836FDF5956}">
+					<Class name="AZStd::string" field="id" value="left turn" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+					<Class name="AZStd::string" field="assetId" value="assets/characters/mixamo/animations/left turn.motion" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+				</Class>
+			</Class>
+			<Class name="AZStd::pair&lt;AZStd::basic_string&lt;char, AZStd::char_traits&lt;char&gt;, allocator&gt;, MotionSet::MotionEntry*&gt;" field="element" type="{7D28A706-15EE-5B30-B2F7-A224146B4C7F}">
+				<Class name="AZStd::string" field="value1" value="hit reaction pistol front" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+				<Class name="MotionSet::MotionEntry" field="value2" version="1" type="{A1859687-2DE7-4B29-8A39-07836FDF5956}">
+					<Class name="AZStd::string" field="id" value="hit reaction pistol front" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+					<Class name="AZStd::string" field="assetId" value="assets/characters/mixamo/animations/hit reaction pistol front.motion" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+				</Class>
+			</Class>
+			<Class name="AZStd::pair&lt;AZStd::basic_string&lt;char, AZStd::char_traits&lt;char&gt;, allocator&gt;, MotionSet::MotionEntry*&gt;" field="element" type="{7D28A706-15EE-5B30-B2F7-A224146B4C7F}">
+				<Class name="AZStd::string" field="value1" value="getting up" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+				<Class name="MotionSet::MotionEntry" field="value2" version="1" type="{A1859687-2DE7-4B29-8A39-07836FDF5956}">
+					<Class name="AZStd::string" field="id" value="getting up" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+					<Class name="AZStd::string" field="assetId" value="assets/characters/mixamo/animations/getting up.motion" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+				</Class>
+			</Class>
+			<Class name="AZStd::pair&lt;AZStd::basic_string&lt;char, AZStd::char_traits&lt;char&gt;, allocator&gt;, MotionSet::MotionEntry*&gt;" field="element" type="{7D28A706-15EE-5B30-B2F7-A224146B4C7F}">
+				<Class name="AZStd::string" field="value1" value="picking up" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+				<Class name="MotionSet::MotionEntry" field="value2" version="1" type="{A1859687-2DE7-4B29-8A39-07836FDF5956}">
+					<Class name="AZStd::string" field="id" value="picking up" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+					<Class name="AZStd::string" field="assetId" value="assets/characters/mixamo/animations/picking up.motion" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+				</Class>
+			</Class>
+			<Class name="AZStd::pair&lt;AZStd::basic_string&lt;char, AZStd::char_traits&lt;char&gt;, allocator&gt;, MotionSet::MotionEntry*&gt;" field="element" type="{7D28A706-15EE-5B30-B2F7-A224146B4C7F}">
+				<Class name="AZStd::string" field="value1" value="pistol run" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+				<Class name="MotionSet::MotionEntry" field="value2" version="1" type="{A1859687-2DE7-4B29-8A39-07836FDF5956}">
+					<Class name="AZStd::string" field="id" value="pistol run" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+					<Class name="AZStd::string" field="assetId" value="assets/characters/mixamo/animations/pistol run.motion" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+				</Class>
+			</Class>
+			<Class name="AZStd::pair&lt;AZStd::basic_string&lt;char, AZStd::char_traits&lt;char&gt;, allocator&gt;, MotionSet::MotionEntry*&gt;" field="element" type="{7D28A706-15EE-5B30-B2F7-A224146B4C7F}">
+				<Class name="AZStd::string" field="value1" value="walking backwards" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+				<Class name="MotionSet::MotionEntry" field="value2" version="1" type="{A1859687-2DE7-4B29-8A39-07836FDF5956}">
+					<Class name="AZStd::string" field="id" value="walking backwards" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+					<Class name="AZStd::string" field="assetId" value="assets/characters/mixamo/animations/walking backwards.motion" type="{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9}"/>
+				</Class>
+			</Class>
+		</Class>
+		<Class name="AZStd::vector&lt;MotionSet*, allocator&gt;" field="childSets" type="{69F77F3B-4CDE-5995-BDC6-341621DF9A6E}"/>
+	</Class>
+</ObjectStream>
+

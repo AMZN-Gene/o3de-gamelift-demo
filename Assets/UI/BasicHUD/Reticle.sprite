@@ -1,0 +1,19 @@
+<Sprite versionNumber="2">
+ <SpriteSheet>
+  <Cell alias="normal" topRight="0.2,0" bottomRight="0.2,1" bottomLeft="0,1">
+   <Sprite m_right="1" m_bottom="1"/>
+  </Cell>
+  <Cell alias="over" topLeft="0.2,0" topRight="0.40000001,0" bottomRight="0.40000001,1" bottomLeft="0.2,1">
+   <Sprite m_right="1" m_bottom="1"/>
+  </Cell>
+  <Cell alias="hit1" topLeft="0.40000001,0" topRight="0.60000002,0" bottomRight="0.60000002,1" bottomLeft="0.40000001,1">
+   <Sprite m_right="1" m_bottom="1"/>
+  </Cell>
+  <Cell alias="hit2" topLeft="0.60000002,0" topRight="0.80000001,0" bottomRight="0.80000001,1" bottomLeft="0.60000002,1">
+   <Sprite m_right="1" m_bottom="1"/>
+  </Cell>
+  <Cell alias="hit3" topLeft="0.80000001,0" topRight="1,0" bottomRight="1,1" bottomLeft="0.80000001,1">
+   <Sprite m_right="1" m_bottom="1"/>
+  </Cell>
+ </SpriteSheet>
+</Sprite>
