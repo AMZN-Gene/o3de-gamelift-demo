@@ -1,4 +1,5 @@
 # 1: Overview
+**Notice\!** Tutorial requires O3DE engine version greater than 24.09.
 
 This tutorial is just the first step for running your multiplayer project on AWS GameLift. By the end, we will have an O3D game server running in the cloud, with a publicly available IP address that the GameLauncher (running locally) can connect to.   
 This **will not** be totally implemented for something a game developer would ship in the wild. The GameLauncher will not have any way of requesting to create a new game, or searching for existing servers to connect to. The game launcher will be at the mercy of the developer to feed it an IP address directly.
@@ -140,58 +141,19 @@ aws gamelift create-fleet --region us-west-2 --name GameLiftO3DTest --ec2-instan
 aws gamelift create-game-session --region us-west-2 --fleet-id fleet-123 --name foogamesession1 --maximum-player-session-count 10 --game-properties "Key=level,Value=DefaultLevel"
 ```
 
-# 3: ClientLauncher
+# 4: ClientLauncher
 
-**Notice\!** There are no GameLift specific API calls in the game launcher
-
-**Notice\!** Skip this section if using any O3DE version greater than 24.09. The latest engine allows developers to provide a player session id into the `--connect <ip_address>:<port>:<player_session_id>` console command and so there is no need to create custom cvars.
-
-## Create CVars
-```
-#if AZ_TRAIT_CLIENT && !AZ_TRAIT_SERVER
-    #include <Multiplayer/Session/ISessionHandlingRequests.h>
-
-    AZ_CVAR(AZStd::string, cl_gameliftIpAddress, "", 
-        nullptr, AZ::ConsoleFunctorFlags::DontReplicate,
-        "The address of the remote GameLift server");
-    AZ_CVAR(uint16_t, cl_gameLiftPort, 0, 
-        nullptr, AZ::ConsoleFunctorFlags::DontReplicate, 
-        "The port of the remote host to connect to for game traffic");
-    AZ_CVAR(AZStd::string, cl_gameliftPlayerSessionId, "", 
-        nullptr, AZ::ConsoleFunctorFlags::DontReplicate,
-        "The player session id. The client gives this to the server who then checks this ID with GameLift; see AWSGameLiftServerManager::ValidatePlayerJoinSession");
-#endif
-```
-
-## Activate()
-```
-#if AZ_TRAIT_CLIENT && !AZ_TRAIT_SERVER
-    Multiplayer::SessionConnectionConfig sessionConfig;
-    sessionConfig.m_ipAddress = cl_gameliftIpAddress;
-    sessionConfig.m_port = cl_gameLiftPort;
-    sessionConfig.m_playerSessionId = cl_gameliftPlayerSessionId;
-    AZ::Interface<Multiplayer::ISessionHandlingClientRequests>::Get()->
-        RequestPlayerJoinSession(sessionConfig);
-#endif
-```
+**Notice\!** There are no GameLift specific API calls required in the game launcher
 
 ## Create Player Session and Launch Client
 
-Refer to MultiplayerSample/MPSGameLift/Documentation
+Refer to [MultiplayerSample/MPSGameLift/Documentation](https://github.com/o3de/o3de-multiplayersample/blob/development/MPSGameLift/Documentation/GameLift.md)
 ```
 aws gamelift create-player-session --region us-west-2 --game-session-id <GameSessionId> --player-id Player1
 ```
 
-Run GameLauncher with new cvars
+Run GameLauncher and connect to GameLift server.
 
-**O3DE Engine == 24.09**
-```
---bg_ConnectToAssetProcessor=0 
---cl_gameliftIpAddress="35.85.44.17"
---cl_gameliftPort="33450" --cl_gameliftPlayerSessionId="psess-abcd-ef12-3456"
-```
-
-**O3DE Engine > 24.09**
 ```
 --bg_ConnectToAssetProcessor=0 
 --connect="35.85.44.17:33450:psess-abcd-ef12-3456"
