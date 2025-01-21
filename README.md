@@ -1,5 +1,5 @@
 # 1: Overview
-**Notice\!** Tutorial requires O3DE engine version greater than 24.09.
+**Notice\!** Tutorial requires O3DE engine version greater than 24.09. If you're using 24.09 please add https://github.com/o3de/o3de/commit/aa100770eb744027ef221aeabfb7e9552781595d, https://github.com/o3de/o3de/commit/963f7cf3f90e0f929a4575abf20db805eecafcc8, and https://github.com/o3de/o3de/commit/27fe9c292dc8d556a4fb229cc6a53d5e88fb4fca 
 
 This tutorial is just the first step for running your multiplayer project on AWS GameLift. By the end, we will have an O3D game server running in the cloud, with a publicly available IP address that the GameLauncher (running locally) can connect to.   
 This **will not** be totally implemented for something a game developer would ship in the wild. The GameLauncher will not have any way of requesting to create a new game, or searching for existing servers to connect to. The game launcher will be at the mercy of the developer to feed it an IP address directly.
