@@ -1,0 +1,51 @@
+{
+    "project_name": "GameLiftDemo",
+    "version": "1.0.0",
+    "project_id": "{5BB2F2CF-4B3A-431B-8549-39B4A89918DD}",
+    "origin": "https://github.com/o3de/o3de-gameliftdemo",
+    "license": "For terms please see the LICENSE*.TXT file at the root of this distribution.",
+    "display_name": "GameLiftDemo",
+    "summary": "A simple third-person multiplayer sample for O3DE.",
+    "canonical_tags": [
+        "Project"
+    ],
+    "user_tags": [
+        "GameLiftDemo"
+    ],
+    "icon_path": "preview.png",
+    "engine": "o3de",
+    "external_subdirectories": [
+        "Gem"
+    ],
+    "restricted": "GameLiftDemo",
+    "gem_names": [
+        "AWSGameLift",
+        "Atom",
+        "AudioSystem",
+        "CameraFramework",
+        "DebugDraw",
+        "DiffuseProbeGrid",
+        "EMotionFX",
+        "EditorPythonBindings",
+        "GameLiftDemo",
+        "GameState",
+        "HttpRequestor",
+        "ImGui",
+        "LandscapeCanvas",
+        "LyShine",
+        "MiniAudio",
+        "Multiplayer",
+        "MultiplayerCompression",
+        "PhysX",
+        "PrefabBuilder",
+        "PrimitiveAssets",
+        "RemoteTools",
+        "SaveData",
+        "ScriptCanvasPhysics",
+        "ScriptEvents",
+        "StartingPointInput",
+        "TextureAtlas",
+        "WhiteBox"
+    ],
+    "engine_version": "4.2.0"
+}

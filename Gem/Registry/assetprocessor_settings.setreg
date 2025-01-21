@@ -1,0 +1,18 @@
+{
+    "Amazon": {
+        "AssetProcessor": {
+            "Settings": {
+                "ScanFolder GameLiftDemo/Assets": {
+                    "watch": "@GEMROOT:GameLiftDemo@/Assets",
+                    "recursive": 1,
+                    "order": 101
+                },
+                "ScanFolder GameLiftDemo/Registry": {
+                    "watch": "@GEMROOT:GameLiftDemo@/Registry",
+                    "recursive": 1,
+                    "order": 102
+                }
+            }
+        }
+    }
+}
