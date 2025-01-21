@@ -144,6 +144,8 @@ aws gamelift create-game-session --region us-west-2 --fleet-id fleet-123 --name 
 
 **Notice\!** There are no GameLift specific API calls in the game launcher
 
+**Notice\!** Skip this section if using any O3DE version greater than 24.09. The latest engine allows developers to provide a player session id into the `--connect <ip_address>:<port>:<player_session_id>` console command and so there is no need to create custom cvars.
+
 ## Create CVars
 ```
 #if AZ_TRAIT_CLIENT && !AZ_TRAIT_SERVER
@@ -181,11 +183,20 @@ aws gamelift create-player-session --region us-west-2 --game-session-id <GameSes
 ```
 
 Run GameLauncher with new cvars
+
+**O3DE Engine == 24.09**
 ```
 --bg_ConnectToAssetProcessor=0 
 --cl_gameliftIpAddress="35.85.44.17"
 --cl_gameliftPort="33450" --cl_gameliftPlayerSessionId="psess-abcd-ef12-3456"
 ```
+
+**O3DE Engine > 24.09**
+```
+--bg_ConnectToAssetProcessor=0 
+--connect="35.85.44.17:33450:psess-abcd-ef12-3456"
+```
+
 
 # Future Improvements
 
