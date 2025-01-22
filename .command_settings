@@ -7,6 +7,6 @@ option.build.tools = True
 option.build.game.launcher = True
 option.build.unified.launcher = False
 option.build.server.launcher = False
-option.build.headless.server.launcher = False
+option.build.headless.server.launcher = True
 option.build.monolithic = True
 
