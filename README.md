@@ -111,6 +111,8 @@ Open Project Manager
 Export settings  
 Export \> Windows
 
+**Notice\!** Linux server exports must include `install.sh` in the root folder. GameLift runs install.sh in order to setup runtime dependencies before attempting to open the headless server. 
+
 ## Test Server Locally with GameLift Anywhere™ 
 
 Start up a headless server
